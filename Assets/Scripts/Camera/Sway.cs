@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Sway : MonoBehaviour
 {
-
     public float amount;
     public float maxAmount;
     public float smoothAmount;
@@ -15,8 +12,7 @@ public class Sway : MonoBehaviour
     {
         initialPosition = transform.localPosition;
     }
-
-
+    
     void Update()
     {
         float movementX = -Input.GetAxis("Mouse X") * amount;

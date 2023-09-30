@@ -1,18 +1,38 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private int _cameraButton;
+    public Action OnCameraClicked;
+    public ObservableVariable<float> ScrollDirection { get; private set; }
+
+    private float _scrollDirection;
+
+    private void Awake()
     {
-        
+        ScrollDirection = new ObservableVariable<float>(0);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        CheckMouseClick(_cameraButton, OnCameraClicked);
+        CheckScrollMouse();
+    }
+
+    private void CheckClick(KeyCode keyCode, Action action)
+    {
+        if (Input.GetKeyDown(keyCode))
+            action?.Invoke();
+    }
+    private void CheckMouseClick(int keyCode, Action action)
+    {
+        if (Input.GetMouseButtonDown(keyCode))
+            action?.Invoke();
+    }
+    private void CheckScrollMouse()
+    {
+        _scrollDirection = Input.mouseScrollDelta.y;
+        ScrollDirection.Value = _scrollDirection;
     }
 }
