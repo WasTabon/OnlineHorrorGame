@@ -9,7 +9,7 @@ public class Zoom : ObservableLogger
     [SerializeField] private float _zoomMultiplier;
     [Inject] private InputManager _inputManager;
 
-    private bool isZooming = false;
+    private bool _isZooming = false;
 
     private void Start()
     {
@@ -19,9 +19,9 @@ public class Zoom : ObservableLogger
 
     private IEnumerator StopSoundCoroutine()
     {
-        yield return new WaitForSeconds(0.3f); // Ждем 0.3 секунды
-        AudioControl(false); // Останавливаем звук
-        isZooming = false; // Указываем, что зум закончен
+        yield return new WaitForSeconds(0.3f);
+        AudioControl(false);
+        _isZooming = false;
     }
 
     private void ChangeFOV(float zoomDir)
@@ -48,9 +48,9 @@ public class Zoom : ObservableLogger
 
         if (zoomDir != 0f)
         {
-            if (!isZooming)
+            if (!_isZooming)
             {
-                isZooming = true;
+                _isZooming = true;
                 StartCoroutine(StopSoundCoroutine());
             }
             AudioControl(true);
@@ -58,14 +58,12 @@ public class Zoom : ObservableLogger
         else
         {
             // Если зума нет, стартуем корутину для остановки звука
-            if (isZooming)
+            if (_isZooming)
             {
-                isZooming = false;
+                _isZooming = false;
                 StopAllCoroutines();
                 StartCoroutine(StopSoundCoroutine());
             }
         }
-
-        Debug.Log($"FOV - {zoomDir}");
     }
 }
