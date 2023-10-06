@@ -157,10 +157,10 @@ RectTransform:
   - {fileID: 1992490978}
   m_Father: {fileID: 1586929115}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 72.635, y: -50}
+  m_SizeDelta: {x: 145.27, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4418320
 MonoBehaviour:
@@ -205,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4418321}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1761832617}
+        m_TargetAssemblyTypeName: CodePassword, Assembly-CSharp
+        m_MethodName: CellsController
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 1
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4418321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -379,10 +391,10 @@ RectTransform:
   - {fileID: 1273817592}
   m_Father: {fileID: 1586929115}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 72.635, y: -172.93}
+  m_SizeDelta: {x: 145.27, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &140428457
 MonoBehaviour:
@@ -427,7 +439,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 140428458}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1761832617}
+        m_TargetAssemblyTypeName: CodePassword, Assembly-CSharp
+        m_MethodName: CellsController
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 4
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &140428458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,10 +524,10 @@ RectTransform:
   - {fileID: 830705374}
   m_Father: {fileID: 1586929115}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 72.635, y: -295.86}
+  m_SizeDelta: {x: 145.27, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &177422639
 MonoBehaviour:
@@ -548,7 +572,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 177422640}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1761832617}
+        m_TargetAssemblyTypeName: CodePassword, Assembly-CSharp
+        m_MethodName: CellsController
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 7
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &177422640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -644,7 +680,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -755,10 +791,10 @@ RectTransform:
   - {fileID: 512135209}
   m_Father: {fileID: 1586929115}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 717.17505, y: -295.86}
+  m_SizeDelta: {x: 145.27, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &235679998
 MonoBehaviour:
@@ -803,7 +839,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 235679999}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1761832617}
+        m_TargetAssemblyTypeName: CodePassword, Assembly-CSharp
+        m_MethodName: CellsController
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 9
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &235679999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1283,7 +1331,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 7
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1680,10 +1728,10 @@ RectTransform:
   - {fileID: 1629005363}
   m_Father: {fileID: 1586929115}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 717.17505, y: -172.93}
+  m_SizeDelta: {x: 145.27, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &530394444
 MonoBehaviour:
@@ -1728,7 +1776,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 530394445}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1761832617}
+        m_TargetAssemblyTypeName: CodePassword, Assembly-CSharp
+        m_MethodName: CellsController
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 6
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &530394445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2199,6 +2259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cameraButton: 1
+  _interactButton: 101
 --- !u!4 &650073687
 Transform:
   m_ObjectHideFlags: 0
@@ -2502,10 +2563,10 @@ RectTransform:
   - {fileID: 596432168}
   m_Father: {fileID: 1586929115}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 394.90503, y: -295.86}
+  m_SizeDelta: {x: 145.27, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &861804026
 MonoBehaviour:
@@ -2550,7 +2611,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 861804027}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1761832617}
+        m_TargetAssemblyTypeName: CodePassword, Assembly-CSharp
+        m_MethodName: CellsController
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 8
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &861804027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2646,7 +2719,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 4
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2757,10 +2830,10 @@ RectTransform:
   - {fileID: 310231629}
   m_Father: {fileID: 1586929115}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 717.17505, y: -50}
+  m_SizeDelta: {x: 145.27, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1061834791
 MonoBehaviour:
@@ -2805,7 +2878,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1061834792}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1761832617}
+        m_TargetAssemblyTypeName: CodePassword, Assembly-CSharp
+        m_MethodName: CellsController
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1061834792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3420,10 +3505,10 @@ RectTransform:
   - {fileID: 586355285}
   m_Father: {fileID: 1586929115}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 394.90503, y: -172.93}
+  m_SizeDelta: {x: 145.27, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1301765416
 MonoBehaviour:
@@ -3468,7 +3553,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1301765417}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1761832617}
+        m_TargetAssemblyTypeName: CodePassword, Assembly-CSharp
+        m_MethodName: CellsController
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 5
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1301765417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3541,10 +3638,10 @@ RectTransform:
   - {fileID: 633793888}
   m_Father: {fileID: 1586929115}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 394.90503, y: -50}
+  m_SizeDelta: {x: 145.27, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1380969134
 MonoBehaviour:
@@ -3589,7 +3686,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1380969135}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1761832617}
+        m_TargetAssemblyTypeName: CodePassword, Assembly-CSharp
+        m_MethodName: CellsController
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1380969135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3719,7 +3828,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4603,13 +4712,14 @@ GameObject:
   - component: {fileID: 1761832614}
   - component: {fileID: 1761832616}
   - component: {fileID: 1761832615}
+  - component: {fileID: 1761832617}
   m_Layer: 5
   m_Name: DoorPasswordPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1761832614
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4670,6 +4780,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761832613}
   m_CullTransparentMesh: 1
+--- !u!114 &1761832617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761832613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724d47ec302d1e1449c7484591eccebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _password: 4326
+  _textCellOne: {fileID: 965376822}
+  _textCellTwo: {fileID: 1478626227}
+  _textCellThree: {fileID: 358551749}
+  _textCellFour: {fileID: 205178382}
+  _currentTextCell: 1
 --- !u!1 &1766847179
 GameObject:
   m_ObjectHideFlags: 0
@@ -6395,6 +6523,7 @@ GameObject:
   - component: {fileID: 6353794852012852579}
   - component: {fileID: 6353794852012852578}
   - component: {fileID: 6353794852012852580}
+  - component: {fileID: 6353794852012852581}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -6539,7 +6668,7 @@ MonoBehaviour:
     MaximumX: 90
     smooth: 0
     smoothTime: 5
-    lockCursor: 1
+    lockCursor: 0
   m_UseFovKick: 1
   m_FovKick:
     Camera: {fileID: 0}
@@ -6752,6 +6881,19 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 247
   hitObjectTag: 
+--- !u!114 &6353794852012852581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6353794852001607870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb810798d4bb3c459a0501ea602678c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _passCodePanel: {fileID: 1761832613}
 --- !u!124 &6353794852013809912
 Behaviour:
   m_ObjectHideFlags: 0

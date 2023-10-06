@@ -10,31 +10,31 @@ public class CodePassword : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _textCellThree;
     [SerializeField] private TextMeshProUGUI _textCellFour;
 
-    private int _currentTextCell = 1;
+    public int _currentTextCell = 1;
     
     public void CellsController(string textToInput)
     {
         switch (_currentTextCell)
         {
             case 1:
-                SetText(textToInput);
+                SetText(_textCellOne, textToInput);
                 break;
             case 2:
-                SetText(textToInput);
+                SetText(_textCellTwo, textToInput);
                 break;
             case 3:
-                SetText(textToInput);
+                SetText(_textCellThree, textToInput);
                 break;
             case 4:
-                SetText(textToInput);
+                SetText(_textCellFour, textToInput);
                 _currentTextCell = 1;
                 break;
         }
     }
 
-    private void SetText(string textToInput)
+    private void SetText(TextMeshProUGUI cell ,string textToInput)
     {
-        _textCellOne.text = textToInput;
+        cell.text = textToInput;
         _currentTextCell++;
     }
 }
