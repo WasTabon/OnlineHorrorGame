@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour
     private void Update()
     {
         ControlInteractText("Door");
+        ControlInteractText("Note");
     }
 
     private void ControlInteractText(string interactWith)
@@ -21,9 +22,10 @@ public class UIManager : MonoBehaviour
             _textInteract.gameObject.SetActive(true);
             _textInteract.text = $"Press [E] to interact with {interactWith}";
         }
-        else
+        else if (_textInteract.text.Contains(interactWith))
         {
             _textInteract.gameObject.SetActive(false);
         }
     }
+
 }

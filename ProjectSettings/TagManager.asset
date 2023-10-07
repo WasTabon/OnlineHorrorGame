@@ -6,6 +6,7 @@ TagManager:
   tags:
   - NightCamera
   - Door
+  - Note
   layers:
   - Default
   - TransparentFX
