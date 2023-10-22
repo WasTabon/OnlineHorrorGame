@@ -14,6 +14,8 @@ public abstract class Monster : MonoBehaviour
     
     [Header("Wandering Movement")]
     [SerializeField] protected bool _isWander;
+
+    private Animator _animator;
     
     private Vector3 _lastPlayerPosition;
 
@@ -34,7 +36,9 @@ public abstract class Monster : MonoBehaviour
     protected virtual void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
         _initialPosition = transform.position;
+        _animator.SetInteger("moving", 1);
     }
     protected virtual void Update()
     {
@@ -67,7 +71,19 @@ public abstract class Monster : MonoBehaviour
         {
             _currentPoint = _movePoints[_currentPointIndex];
         }
+
+        // Направление к текущей цели
+        Vector3 directionToTarget = (_currentPoint.position - transform.position).normalized;
+        if (directionToTarget != Vector3.zero)
+        {
+            // Поворот монстра к цели
+            Quaternion lookRotation = Quaternion.LookRotation(new Vector3(directionToTarget.x, 0, directionToTarget.z));
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
+        }
+
+        // Перемещение к текущей цели
         transform.position = Vector3.MoveTowards(transform.position, _currentPoint.position, _speed * Time.deltaTime);
+
         if (Vector3.Distance(transform.position, _currentPoint.position) < 1f)
         {
             _currentPointIndex = (_currentPointIndex + 1) % _movePoints.Length;

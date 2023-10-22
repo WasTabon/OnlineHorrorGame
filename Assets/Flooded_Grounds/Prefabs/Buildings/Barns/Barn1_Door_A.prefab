@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 3309016}
   - component: {fileID: 2332592}
   - component: {fileID: 6567198}
+  - component: {fileID: 4133705799335969334}
   m_Layer: 0
   m_Name: Barn1_Door_A
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,9 +28,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119218}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 559.45514, y: 18.499996, z: 196.00978}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6521986, y: 0.82523304, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -105,3 +106,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.3214967, y: 3.1329772, z: 0.14834422}
   m_Center: {x: -1.1603755, y: 1.5569614, z: 0.074555665}
+--- !u!114 &4133705799335969334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db8f8002406a941499743f8f1406a6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
